@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B3B2E"/>
+      <stop offset="1" stop-color="#124A3A"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0.85" cy="0.15" r="0.6">
+      <stop offset="0" stop-color="#D4A34A" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#D4A34A" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0.1" cy="0.9" r="0.55">
+      <stop offset="0" stop-color="#12A67F" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#12A67F" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect width="1200" height="630" fill="url(#glow1)"/>
+  <rect width="1200" height="630" fill="url(#glow2)"/>
+
+  <g transform="translate(96,120)">
+    <rect width="72" height="72" rx="16" fill="rgba(255,255,255,0.10)" stroke="rgba(255,255,255,0.20)"/>
+    <rect x="33" y="14" width="6" height="44" rx="3" fill="#D4A34A"/>
+    <rect x="14" y="33" width="44" height="6" rx="3" fill="#D4A34A"/>
+  </g>
+
+  <g font-family="'Plus Jakarta Sans', 'Inter', sans-serif">
+    <text x="96" y="270" font-size="26" font-weight="700" letter-spacing="6" fill="#F6E7C0">DEEP MULTISPECIALITY HOSPITAL</text>
+    <text x="96" y="360" font-size="76" font-weight="700" fill="#ffffff">Compassionate Care.</text>
+    <text x="96" y="440" font-size="76" font-weight="700" fill="#D4A34A">Trusted Healthcare.</text>
+    <text x="96" y="518" font-size="26" fill="rgba(255,255,255,0.85)">Gurdaspur, Punjab · +91 84271 76580</text>
+  </g>
+</svg>
